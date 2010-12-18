@@ -1,0 +1,5 @@
+D:\Code\csharp-bacnet\BACnet\bin\Debug\BACnet.dll
+D:\Code\csharp-bacnet\BACnet\bin\Debug\BACnet.pdb
+D:\Code\csharp-bacnet\BACnet\obj\Debug\ResolveAssemblyReference.cache
+D:\Code\csharp-bacnet\BACnet\obj\Debug\BACnet.dll
+D:\Code\csharp-bacnet\BACnet\obj\Debug\BACnet.pdb

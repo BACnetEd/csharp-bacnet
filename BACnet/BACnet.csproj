@@ -40,8 +40,49 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="ProtocolTypes\BitString.cs" />
+    <Compile Include="ProtocolTypes\BitStrings\BACnetDaysOfWeek.cs" />
+    <Compile Include="ProtocolTypes\BitStrings\BACnetEventTransitionBits.cs" />
+    <Compile Include="ProtocolTypes\BitStrings\BACnetObjectTypesSupported.cs" />
+    <Compile Include="ProtocolTypes\BitStrings\BACnetResultFlags.cs" />
+    <Compile Include="ProtocolTypes\BitStrings\BACnetServicesSupported.cs" />
+    <Compile Include="ProtocolTypes\BitStrings\BACnetStatusFlags.cs" />
+    <Compile Include="ProtocolTypes\Enumerated.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetAbortReason.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetAction.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetBinaryPV.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetDeviceStatus.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetDoorAlarmState.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetDoorSecuredStatus.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetDoorStatus.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetDoorValue.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetEngineeringUnits.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetEventState.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetEventType.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetFileAccessMethod.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetLifeSafetyMode.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetLifeSafetyOperation.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetLifeSafetyState.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetLimitEnable.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetLockStatus.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetLoggingType.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetLogStatus.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetMaintenance.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetNodeType.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetNotifyType.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetObjectType.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetPolarity.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetProgramError.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetProgramRequest.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetProgramState.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetPropertyIdentifier.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetRejectReason.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetReliability.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetRestartReason.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetSegmentation.cs" />
+    <Compile Include="ProtocolTypes\Enumerations\BACnetSilencedState.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProtocolTypes\EnumerationUtilities.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
