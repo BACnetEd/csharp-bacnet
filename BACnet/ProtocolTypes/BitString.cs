@@ -133,7 +133,7 @@ namespace BACnet.ProtocolTypes
             Array values = Enum.GetValues(type);
             for (int i = 0; i < values.Length; i++)
             {
-                defaultLength = Math.Max(defaultLength, (byte)values.GetValue(i));
+                defaultLength = Math.Max(defaultLength, (byte)(int)values.GetValue(i));
             }
             defaultLength++;
         }
@@ -233,7 +233,7 @@ namespace BACnet.ProtocolTypes
         /// </summary>
         public byte Length
         {
-            get { return length; }
+            get { return length == 0 ? defaultLength : length; }
         }
 
         /// <summary>

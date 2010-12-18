@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7617690d-fcf3-4411-b581-dd760285c3b6" name="Loren@ELLRIN 2010-12-18 00:41:06" runUser="Ellrin\Loren" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="20c951ca-5f84-442b-894a-0e379489c7be">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="D:\Code\csharp-bacnet\BACnet\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Loren_ELLRIN 2010-12-18 00_41_06">
+      <DeploymentItem filename="D:\Code\csharp-bacnet\BACnet\bin\Debug\BACnet.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-12-18T00:41:06.7104386-08:00" queuing="2010-12-18T00:41:06.7244394-08:00" start="2010-12-18T00:41:06.7314398-08:00" finish="2010-12-18T00:41:06.9544526-08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="3" executed="3" passed="2" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="ELLRIN" outcome="Warning" timestamp="2010-12-18T00:41:06.7244394-08:00">
+        <Text>Deployment is currently disabled. The deployment item 'BACnet.dll' on test 'BACnet.Tests.BitStringTest.maskTest1' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="maskTest1" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="c7a48a19-d730-8400-6b82-3a4d2b7946e4">
+      <DeploymentItems>
+        <DeploymentItem filename="BACnet.dll" />
+      </DeploymentItems>
+      <Execution id="2938c203-0e35-4103-8ab7-f261e3fa6c0d" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="maskTest1" />
+    </UnitTest>
+    <UnitTest name="LengthTest1" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="25fd975d-1b6f-2ba5-0b71-17fac58fcd2d">
+      <Execution id="58ae75d0-693a-48e8-a951-888c639ae683" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LengthTest1" />
+    </UnitTest>
+    <UnitTest name="maskTest" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="1db3f146-6d37-ab11-90b1-d417783ab30f">
+      <Execution id="e9135fcb-b42a-407c-bbca-7d2a70789e99" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="maskTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="25fd975d-1b6f-2ba5-0b71-17fac58fcd2d" executionId="58ae75d0-693a-48e8-a951-888c639ae683" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7a48a19-d730-8400-6b82-3a4d2b7946e4" executionId="2938c203-0e35-4103-8ab7-f261e3fa6c0d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1db3f146-6d37-ab11-90b1-d417783ab30f" executionId="e9135fcb-b42a-407c-bbca-7d2a70789e99" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="58ae75d0-693a-48e8-a951-888c639ae683" testId="25fd975d-1b6f-2ba5-0b71-17fac58fcd2d" testName="LengthTest1" computerName="ELLRIN" duration="00:00:00.0252343" startTime="2010-12-18T00:41:06.7324399-08:00" endTime="2010-12-18T00:41:06.9304512-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="58ae75d0-693a-48e8-a951-888c639ae683">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;3&gt;. Actual:&lt;0&gt;. </Message>
+          <StackTrace>   at BACnet.Tests.BitStringTest.LengthTest1() in D:\Code\csharp-bacnet\BACnet.Tests\ProtocolTypes\BitStringTest.cs:line 145
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2938c203-0e35-4103-8ab7-f261e3fa6c0d" testId="c7a48a19-d730-8400-6b82-3a4d2b7946e4" testName="maskTest1" computerName="ELLRIN" duration="00:00:00.0037017" startTime="2010-12-18T00:41:06.9314513-08:00" endTime="2010-12-18T00:41:06.9384517-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2938c203-0e35-4103-8ab7-f261e3fa6c0d">
+    </UnitTestResult>
+    <UnitTestResult executionId="e9135fcb-b42a-407c-bbca-7d2a70789e99" testId="1db3f146-6d37-ab11-90b1-d417783ab30f" testName="maskTest" computerName="ELLRIN" duration="00:00:00.0007656" startTime="2010-12-18T00:41:06.9394517-08:00" endTime="2010-12-18T00:41:06.9434520-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9135fcb-b42a-407c-bbca-7d2a70789e99">
+    </UnitTestResult>
+  </Results>
+</TestRun>

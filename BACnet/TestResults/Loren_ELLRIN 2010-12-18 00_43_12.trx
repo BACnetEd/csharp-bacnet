@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5c7a5d4a-03da-40cb-ba95-78de4f5d5e55" name="Loren@ELLRIN 2010-12-18 00:43:12" runUser="Ellrin\Loren" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="20c951ca-5f84-442b-894a-0e379489c7be">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Loren_ELLRIN 2010-12-18 00_43_12">
+      <DeploymentItem filename="D:\Code\csharp-bacnet\BACnet\bin\Debug\BACnet.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-12-18T00:43:12.9026564-08:00" queuing="2010-12-18T00:43:12.9066567-08:00" start="2010-12-18T00:43:12.9256577-08:00" finish="2010-12-18T00:43:13.2036736-08:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="17" executed="17" passed="17" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="BitStringConstructorTest2" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="000f95bb-1270-c5be-f922-0f8715e66a41">
+      <Execution id="a9fea7f7-5741-4eb6-82a9-c302dc2a4b31" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BitStringConstructorTest2" />
+    </UnitTest>
+    <UnitTest name="maskTest" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="1db3f146-6d37-ab11-90b1-d417783ab30f">
+      <Execution id="f7bc8645-c834-4528-a8a4-aada641fb850" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="maskTest" />
+    </UnitTest>
+    <UnitTest name="op_ImplicitTest" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="c835259b-0ffa-44f4-11e7-6fe0a032112a">
+      <Execution id="c2b1ee7d-58fb-4540-a68e-57eebe2e7416" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.EnumeratedTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="op_ImplicitTest" />
+    </UnitTest>
+    <UnitTest name="ItemTest1" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="e86f0d34-e891-44fe-5d7b-f0982c609c38">
+      <Execution id="20bc1296-5c3d-4939-b8a1-c36be49cf082" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ItemTest1" />
+    </UnitTest>
+    <UnitTest name="EnumerationUtilitiesConstructorTest" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="7ed92520-cd2c-5403-3ef3-2f9d2778076b">
+      <Execution id="7339bbdc-8b40-4664-ab47-3d3a5e7fbe7c" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.EnumerationUtilitiesTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EnumerationUtilitiesConstructorTest" />
+    </UnitTest>
+    <UnitTest name="FlagsTest1" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="dd3e264b-8f45-7612-406f-b3b996d681d6">
+      <Execution id="e1bc063d-5108-493a-a973-b7228c81e6fc" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FlagsTest1" />
+    </UnitTest>
+    <UnitTest name="FlagsTest" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="4d7b5f58-1541-b38a-a31c-fd12884037ea">
+      <Execution id="364b3959-a7ea-4350-9b50-cec25e28952f" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FlagsTest" />
+    </UnitTest>
+    <UnitTest name="op_ImplicitTest" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="abdd70d3-24a6-312c-8b19-00474a4fc338">
+      <Execution id="03f10d30-23ef-4db6-8ae6-617dd281a666" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="op_ImplicitTest" />
+    </UnitTest>
+    <UnitTest name="ItemTest" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="baf21fea-20f4-65b5-b74e-3da5aab70eb7">
+      <Execution id="afdbae60-521a-4037-b938-8465126ac8ee" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ItemTest" />
+    </UnitTest>
+    <UnitTest name="op_ImplicitTest1" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="b7bb2998-a480-3e49-e69d-6dba9109035a">
+      <Execution id="29b6550b-9062-4d1e-a011-674b7777a797" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.EnumeratedTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="op_ImplicitTest1" />
+    </UnitTest>
+    <UnitTest name="ItemTest2" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="51402006-0952-5313-947e-332d1720b63c">
+      <Execution id="6836f2b6-59f8-4aa1-bfcd-cc997efbfe5b" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ItemTest2" />
+    </UnitTest>
+    <UnitTest name="BitStringConstructorTest" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="dd74277e-90a2-c41d-ba3b-e1a4a0511757">
+      <Execution id="70c16809-bd97-4a46-810c-34da209b6173" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BitStringConstructorTest" />
+    </UnitTest>
+    <UnitTest name="LengthTest1" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="25fd975d-1b6f-2ba5-0b71-17fac58fcd2d">
+      <Execution id="db9e1427-cb39-4bab-8d81-4b12801e4ad3" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LengthTest1" />
+    </UnitTest>
+    <UnitTest name="EnumeratedConstructorTest" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="524f19b8-74a9-1d9a-89ad-10b49894bc48">
+      <Execution id="3596ca71-2095-4bc6-b4ff-aa535d23e01c" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.EnumeratedTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="EnumeratedConstructorTest" />
+    </UnitTest>
+    <UnitTest name="maskTest1" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="c7a48a19-d730-8400-6b82-3a4d2b7946e4">
+      <DeploymentItems>
+        <DeploymentItem filename="BACnet.dll" />
+      </DeploymentItems>
+      <Execution id="ce811bbc-f2b3-49ec-92ef-c1c350003971" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="maskTest1" />
+    </UnitTest>
+    <UnitTest name="LengthTest" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="3ee8baaa-1cf0-da39-cb30-a6c7e6327dd5">
+      <Execution id="0a0e48a1-e549-4d89-b6d8-79c64cc8eb85" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LengthTest" />
+    </UnitTest>
+    <UnitTest name="BitStringConstructorTest1" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="800c139e-b476-1d29-81a2-74fdbdeaac2d">
+      <Execution id="adad8cb2-5ff1-4b13-bf81-a4f477299ec0" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BitStringConstructorTest1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="000f95bb-1270-c5be-f922-0f8715e66a41" executionId="a9fea7f7-5741-4eb6-82a9-c302dc2a4b31" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1db3f146-6d37-ab11-90b1-d417783ab30f" executionId="f7bc8645-c834-4528-a8a4-aada641fb850" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25fd975d-1b6f-2ba5-0b71-17fac58fcd2d" executionId="db9e1427-cb39-4bab-8d81-4b12801e4ad3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3ee8baaa-1cf0-da39-cb30-a6c7e6327dd5" executionId="0a0e48a1-e549-4d89-b6d8-79c64cc8eb85" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d7b5f58-1541-b38a-a31c-fd12884037ea" executionId="364b3959-a7ea-4350-9b50-cec25e28952f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51402006-0952-5313-947e-332d1720b63c" executionId="6836f2b6-59f8-4aa1-bfcd-cc997efbfe5b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="524f19b8-74a9-1d9a-89ad-10b49894bc48" executionId="3596ca71-2095-4bc6-b4ff-aa535d23e01c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ed92520-cd2c-5403-3ef3-2f9d2778076b" executionId="7339bbdc-8b40-4664-ab47-3d3a5e7fbe7c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="800c139e-b476-1d29-81a2-74fdbdeaac2d" executionId="adad8cb2-5ff1-4b13-bf81-a4f477299ec0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="abdd70d3-24a6-312c-8b19-00474a4fc338" executionId="03f10d30-23ef-4db6-8ae6-617dd281a666" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7bb2998-a480-3e49-e69d-6dba9109035a" executionId="29b6550b-9062-4d1e-a011-674b7777a797" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="baf21fea-20f4-65b5-b74e-3da5aab70eb7" executionId="afdbae60-521a-4037-b938-8465126ac8ee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7a48a19-d730-8400-6b82-3a4d2b7946e4" executionId="ce811bbc-f2b3-49ec-92ef-c1c350003971" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c835259b-0ffa-44f4-11e7-6fe0a032112a" executionId="c2b1ee7d-58fb-4540-a68e-57eebe2e7416" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd3e264b-8f45-7612-406f-b3b996d681d6" executionId="e1bc063d-5108-493a-a973-b7228c81e6fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd74277e-90a2-c41d-ba3b-e1a4a0511757" executionId="70c16809-bd97-4a46-810c-34da209b6173" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e86f0d34-e891-44fe-5d7b-f0982c609c38" executionId="20bc1296-5c3d-4939-b8a1-c36be49cf082" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a9fea7f7-5741-4eb6-82a9-c302dc2a4b31" testId="000f95bb-1270-c5be-f922-0f8715e66a41" testName="BitStringConstructorTest2" computerName="ELLRIN" duration="00:00:00.0150699" startTime="2010-12-18T00:43:12.9266578-08:00" endTime="2010-12-18T00:43:13.1176687-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9fea7f7-5741-4eb6-82a9-c302dc2a4b31">
+    </UnitTestResult>
+    <UnitTestResult executionId="f7bc8645-c834-4528-a8a4-aada641fb850" testId="1db3f146-6d37-ab11-90b1-d417783ab30f" testName="maskTest" computerName="ELLRIN" duration="00:00:00.0023397" startTime="2010-12-18T00:43:13.1186688-08:00" endTime="2010-12-18T00:43:13.1236691-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7bc8645-c834-4528-a8a4-aada641fb850">
+    </UnitTestResult>
+    <UnitTestResult executionId="db9e1427-cb39-4bab-8d81-4b12801e4ad3" testId="25fd975d-1b6f-2ba5-0b71-17fac58fcd2d" testName="LengthTest1" computerName="ELLRIN" duration="00:00:00.0001597" startTime="2010-12-18T00:43:13.1256692-08:00" endTime="2010-12-18T00:43:13.1286694-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db9e1427-cb39-4bab-8d81-4b12801e4ad3">
+    </UnitTestResult>
+    <UnitTestResult executionId="0a0e48a1-e549-4d89-b6d8-79c64cc8eb85" testId="3ee8baaa-1cf0-da39-cb30-a6c7e6327dd5" testName="LengthTest" computerName="ELLRIN" duration="00:00:00.0002679" startTime="2010-12-18T00:43:13.1296694-08:00" endTime="2010-12-18T00:43:13.1326696-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a0e48a1-e549-4d89-b6d8-79c64cc8eb85">
+    </UnitTestResult>
+    <UnitTestResult executionId="364b3959-a7ea-4350-9b50-cec25e28952f" testId="4d7b5f58-1541-b38a-a31c-fd12884037ea" testName="FlagsTest" computerName="ELLRIN" duration="00:00:00.0003314" startTime="2010-12-18T00:43:13.1336696-08:00" endTime="2010-12-18T00:43:13.1376699-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="364b3959-a7ea-4350-9b50-cec25e28952f">
+    </UnitTestResult>
+    <UnitTestResult executionId="6836f2b6-59f8-4aa1-bfcd-cc997efbfe5b" testId="51402006-0952-5313-947e-332d1720b63c" testName="ItemTest2" computerName="ELLRIN" duration="00:00:00.0005270" startTime="2010-12-18T00:43:13.1376699-08:00" endTime="2010-12-18T00:43:13.1416701-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6836f2b6-59f8-4aa1-bfcd-cc997efbfe5b">
+    </UnitTestResult>
+    <UnitTestResult executionId="3596ca71-2095-4bc6-b4ff-aa535d23e01c" testId="524f19b8-74a9-1d9a-89ad-10b49894bc48" testName="EnumeratedConstructorTest" computerName="ELLRIN" duration="00:00:00.0003530" startTime="2010-12-18T00:43:13.1426702-08:00" endTime="2010-12-18T00:43:13.1466704-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3596ca71-2095-4bc6-b4ff-aa535d23e01c">
+    </UnitTestResult>
+    <UnitTestResult executionId="7339bbdc-8b40-4664-ab47-3d3a5e7fbe7c" testId="7ed92520-cd2c-5403-3ef3-2f9d2778076b" testName="EnumerationUtilitiesConstructorTest" computerName="ELLRIN" duration="00:00:00.0022508" startTime="2010-12-18T00:43:13.1476704-08:00" endTime="2010-12-18T00:43:13.1526707-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7339bbdc-8b40-4664-ab47-3d3a5e7fbe7c">
+    </UnitTestResult>
+    <UnitTestResult executionId="adad8cb2-5ff1-4b13-bf81-a4f477299ec0" testId="800c139e-b476-1d29-81a2-74fdbdeaac2d" testName="BitStringConstructorTest1" computerName="ELLRIN" duration="00:00:00.0004130" startTime="2010-12-18T00:43:13.1536708-08:00" endTime="2010-12-18T00:43:13.1576710-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="adad8cb2-5ff1-4b13-bf81-a4f477299ec0">
+    </UnitTestResult>
+    <UnitTestResult executionId="03f10d30-23ef-4db6-8ae6-617dd281a666" testId="abdd70d3-24a6-312c-8b19-00474a4fc338" testName="op_ImplicitTest" computerName="ELLRIN" duration="00:00:00.0004819" startTime="2010-12-18T00:43:13.1586711-08:00" endTime="2010-12-18T00:43:13.1616712-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="03f10d30-23ef-4db6-8ae6-617dd281a666">
+    </UnitTestResult>
+    <UnitTestResult executionId="29b6550b-9062-4d1e-a011-674b7777a797" testId="b7bb2998-a480-3e49-e69d-6dba9109035a" testName="op_ImplicitTest1" computerName="ELLRIN" duration="00:00:00.0002124" startTime="2010-12-18T00:43:13.1626713-08:00" endTime="2010-12-18T00:43:13.1656715-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29b6550b-9062-4d1e-a011-674b7777a797">
+    </UnitTestResult>
+    <UnitTestResult executionId="afdbae60-521a-4037-b938-8465126ac8ee" testId="baf21fea-20f4-65b5-b74e-3da5aab70eb7" testName="ItemTest" computerName="ELLRIN" duration="00:00:00.0001986" startTime="2010-12-18T00:43:13.1666715-08:00" endTime="2010-12-18T00:43:13.1706718-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="afdbae60-521a-4037-b938-8465126ac8ee">
+    </UnitTestResult>
+    <UnitTestResult executionId="ce811bbc-f2b3-49ec-92ef-c1c350003971" testId="c7a48a19-d730-8400-6b82-3a4d2b7946e4" testName="maskTest1" computerName="ELLRIN" duration="00:00:00.0011317" startTime="2010-12-18T00:43:13.1716718-08:00" endTime="2010-12-18T00:43:13.1766721-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce811bbc-f2b3-49ec-92ef-c1c350003971">
+    </UnitTestResult>
+    <UnitTestResult executionId="c2b1ee7d-58fb-4540-a68e-57eebe2e7416" testId="c835259b-0ffa-44f4-11e7-6fe0a032112a" testName="op_ImplicitTest" computerName="ELLRIN" duration="00:00:00.0002228" startTime="2010-12-18T00:43:13.1776722-08:00" endTime="2010-12-18T00:43:13.1806723-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c2b1ee7d-58fb-4540-a68e-57eebe2e7416">
+    </UnitTestResult>
+    <UnitTestResult executionId="e1bc063d-5108-493a-a973-b7228c81e6fc" testId="dd3e264b-8f45-7612-406f-b3b996d681d6" testName="FlagsTest1" computerName="ELLRIN" duration="00:00:00.0001982" startTime="2010-12-18T00:43:13.1816724-08:00" endTime="2010-12-18T00:43:13.1846726-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1bc063d-5108-493a-a973-b7228c81e6fc">
+    </UnitTestResult>
+    <UnitTestResult executionId="70c16809-bd97-4a46-810c-34da209b6173" testId="dd74277e-90a2-c41d-ba3b-e1a4a0511757" testName="BitStringConstructorTest" computerName="ELLRIN" duration="00:00:00.0001994" startTime="2010-12-18T00:43:13.1856726-08:00" endTime="2010-12-18T00:43:13.1886728-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70c16809-bd97-4a46-810c-34da209b6173">
+    </UnitTestResult>
+    <UnitTestResult executionId="20bc1296-5c3d-4939-b8a1-c36be49cf082" testId="e86f0d34-e891-44fe-5d7b-f0982c609c38" testName="ItemTest1" computerName="ELLRIN" duration="00:00:00.0002402" startTime="2010-12-18T00:43:13.1896728-08:00" endTime="2010-12-18T00:43:13.1936731-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="20bc1296-5c3d-4939-b8a1-c36be49cf082">
+    </UnitTestResult>
+  </Results>
+</TestRun>

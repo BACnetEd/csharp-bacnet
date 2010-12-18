@@ -50,10 +50,14 @@
     </CodeAnalysisDependentAssemblyPaths>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ProtocolTypes\BitStringTest.cs" />
+    <Compile Include="ProtocolTypes\EnumeratedTest.cs" />
     <Compile Include="ProtocolTypes\EnumerationUtilitiesTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Shadow Include="Test References\BACnet.accessor" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BACnet\BACnet.csproj">
       <Project>{72BF55A6-9CC3-4A0D-8CFF-5B4A810177CF}</Project>

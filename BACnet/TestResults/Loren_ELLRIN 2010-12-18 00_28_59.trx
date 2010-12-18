@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d7958c8d-d279-4f8e-8582-5df99724d30d" name="Loren@ELLRIN 2010-12-18 00:28:59" runUser="Ellrin\Loren" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="20c951ca-5f84-442b-894a-0e379489c7be">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Loren_ELLRIN 2010-12-18 00_28_59">
+      <DeploymentItem filename="D:\Code\csharp-bacnet\BACnet\bin\Debug\BACnet.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-12-18T00:28:59.7354859-08:00" queuing="2010-12-18T00:28:59.8604930-08:00" start="2010-12-18T00:28:59.8914948-08:00" finish="2010-12-18T00:29:00.1695107-08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="ELLRIN" outcome="Warning" timestamp="2010-12-18T00:28:59.7474866-08:00">
+        <Text>Deployment is currently disabled. The deployment item 'BACnet.dll' on test 'BACnet.Tests.BitStringTest.maskTest1' was not deployed.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="maskTest1" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="c7a48a19-d730-8400-6b82-3a4d2b7946e4">
+      <DeploymentItems>
+        <DeploymentItem filename="BACnet.dll" />
+      </DeploymentItems>
+      <Execution id="a9200828-5e70-47f8-86b3-d8847ac75a1e" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="maskTest1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="c7a48a19-d730-8400-6b82-3a4d2b7946e4" executionId="a9200828-5e70-47f8-86b3-d8847ac75a1e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a9200828-5e70-47f8-86b3-d8847ac75a1e" testId="c7a48a19-d730-8400-6b82-3a4d2b7946e4" testName="maskTest1" computerName="ELLRIN" duration="00:00:00.0385150" startTime="2010-12-18T00:28:59.8984952-08:00" endTime="2010-12-18T00:29:00.1545098-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9200828-5e70-47f8-86b3-d8847ac75a1e">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method BACnet.Tests.BitStringTest.maskTest1 threw exception: 
+System.TypeInitializationException: The type initializer for 'BACnet.ProtocolTypes.BitString`1' threw an exception. ---&gt; System.InvalidCastException: Specified cast is not valid.</Message>
+          <StackTrace>    at BACnet.ProtocolTypes.BitString`1..cctor() in D:\Code\csharp-bacnet\BACnet\ProtocolTypes\BitString.cs:line 136
+ --- End of inner exception stack trace ---
+   at BACnet.ProtocolTypes.BitString_Accessor`1.mask(Int32 index)
+   at BACnet.Tests.BitStringTest.maskTest1() in D:\Code\csharp-bacnet\BACnet.Tests\ProtocolTypes\BitStringTest.cs:line 98
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

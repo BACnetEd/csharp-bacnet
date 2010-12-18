@@ -5,3 +5,5 @@ D:\Code\csharp-bacnet\BACnet.Tests\bin\Debug\BACnet.pdb
 D:\Code\csharp-bacnet\BACnet.Tests\obj\Debug\ResolveAssemblyReference.cache
 D:\Code\csharp-bacnet\BACnet.Tests\obj\Debug\BACnet.Tests.dll
 D:\Code\csharp-bacnet\BACnet.Tests\obj\Debug\BACnet.Tests.pdb
+D:\Code\csharp-bacnet\BACnet.Tests\bin\Debug\BACnet_Accessor.dll
+D:\Code\csharp-bacnet\BACnet.Tests\bin\Debug\BACnet_Accessor.pdb

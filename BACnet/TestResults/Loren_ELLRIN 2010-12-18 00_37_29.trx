@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="23eeef6a-6d23-4d35-9f6b-2525c92d2bf6" name="Loren@ELLRIN 2010-12-18 00:37:29" runUser="Ellrin\Loren" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="20c951ca-5f84-442b-894a-0e379489c7be">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Loren_ELLRIN 2010-12-18 00_37_29">
+      <DeploymentItem filename="D:\Code\csharp-bacnet\BACnet\bin\Debug\BACnet.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-12-18T00:37:29.0549543-08:00" queuing="2010-12-18T00:37:29.0679550-08:00" start="2010-12-18T00:37:29.0769555-08:00" finish="2010-12-18T00:37:29.3649720-08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="13" executed="13" passed="3" error="0" failed="10" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="BitStringConstructorTest" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="dd74277e-90a2-c41d-ba3b-e1a4a0511757">
+      <Execution id="792d2f26-2722-4ab5-a54e-ab2f5580ade6" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BitStringConstructorTest" />
+    </UnitTest>
+    <UnitTest name="maskTest" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="1db3f146-6d37-ab11-90b1-d417783ab30f">
+      <Execution id="8c7ead7f-e234-4a0c-bc71-b9c51d82ae2d" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="maskTest" />
+    </UnitTest>
+    <UnitTest name="BitStringConstructorTest2" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="000f95bb-1270-c5be-f922-0f8715e66a41">
+      <Execution id="ebcb3a08-dcb5-439c-8e8f-2d8964a69807" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BitStringConstructorTest2" />
+    </UnitTest>
+    <UnitTest name="ItemTest1" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="e86f0d34-e891-44fe-5d7b-f0982c609c38">
+      <Execution id="caac2010-d023-48a2-9160-8f7f52ab4325" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ItemTest1" />
+    </UnitTest>
+    <UnitTest name="FlagsTest1" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="dd3e264b-8f45-7612-406f-b3b996d681d6">
+      <Execution id="dbf68f0a-d398-4c34-8917-9920a52c80bf" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FlagsTest1" />
+    </UnitTest>
+    <UnitTest name="FlagsTest" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="4d7b5f58-1541-b38a-a31c-fd12884037ea">
+      <Execution id="dc8bbce8-90d0-4e9c-b849-ea4bdb748f16" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FlagsTest" />
+    </UnitTest>
+    <UnitTest name="op_ImplicitTest" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="abdd70d3-24a6-312c-8b19-00474a4fc338">
+      <Execution id="3b6560f0-5154-4087-badf-1d7ff2524e34" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="op_ImplicitTest" />
+    </UnitTest>
+    <UnitTest name="ItemTest" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="baf21fea-20f4-65b5-b74e-3da5aab70eb7">
+      <Execution id="a11c7e96-e509-4d7e-a973-bb3c937c2d21" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ItemTest" />
+    </UnitTest>
+    <UnitTest name="LengthTest1" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="25fd975d-1b6f-2ba5-0b71-17fac58fcd2d">
+      <Execution id="ab180c99-2f03-4611-8d47-4f537bdee3a0" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LengthTest1" />
+    </UnitTest>
+    <UnitTest name="ItemTest2" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="51402006-0952-5313-947e-332d1720b63c">
+      <Execution id="2956ca55-c241-4bf6-b0cb-87706b0346a9" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ItemTest2" />
+    </UnitTest>
+    <UnitTest name="maskTest1" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="c7a48a19-d730-8400-6b82-3a4d2b7946e4">
+      <DeploymentItems>
+        <DeploymentItem filename="BACnet.dll" />
+      </DeploymentItems>
+      <Execution id="4984d936-ede9-49cb-90c1-2aa05ec1e6b4" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="maskTest1" />
+    </UnitTest>
+    <UnitTest name="LengthTest" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="3ee8baaa-1cf0-da39-cb30-a6c7e6327dd5">
+      <Execution id="40065040-bc02-4d6d-bb39-333ecc7cce8b" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="LengthTest" />
+    </UnitTest>
+    <UnitTest name="BitStringConstructorTest1" storage="d:\code\csharp-bacnet\bacnet.tests\bin\debug\bacnet.tests.dll" id="800c139e-b476-1d29-81a2-74fdbdeaac2d">
+      <Execution id="932fa25d-3d31-4ab9-8e7c-4729f07c3437" />
+      <TestMethod codeBase="D:/Code/csharp-bacnet/BACnet.Tests/bin/Debug/BACnet.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BACnet.Tests.BitStringTest, BACnet.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BitStringConstructorTest1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="000f95bb-1270-c5be-f922-0f8715e66a41" executionId="ebcb3a08-dcb5-439c-8e8f-2d8964a69807" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1db3f146-6d37-ab11-90b1-d417783ab30f" executionId="8c7ead7f-e234-4a0c-bc71-b9c51d82ae2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25fd975d-1b6f-2ba5-0b71-17fac58fcd2d" executionId="ab180c99-2f03-4611-8d47-4f537bdee3a0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3ee8baaa-1cf0-da39-cb30-a6c7e6327dd5" executionId="40065040-bc02-4d6d-bb39-333ecc7cce8b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d7b5f58-1541-b38a-a31c-fd12884037ea" executionId="dc8bbce8-90d0-4e9c-b849-ea4bdb748f16" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51402006-0952-5313-947e-332d1720b63c" executionId="2956ca55-c241-4bf6-b0cb-87706b0346a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="800c139e-b476-1d29-81a2-74fdbdeaac2d" executionId="932fa25d-3d31-4ab9-8e7c-4729f07c3437" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="abdd70d3-24a6-312c-8b19-00474a4fc338" executionId="3b6560f0-5154-4087-badf-1d7ff2524e34" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="baf21fea-20f4-65b5-b74e-3da5aab70eb7" executionId="a11c7e96-e509-4d7e-a973-bb3c937c2d21" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c7a48a19-d730-8400-6b82-3a4d2b7946e4" executionId="4984d936-ede9-49cb-90c1-2aa05ec1e6b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd3e264b-8f45-7612-406f-b3b996d681d6" executionId="dbf68f0a-d398-4c34-8917-9920a52c80bf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dd74277e-90a2-c41d-ba3b-e1a4a0511757" executionId="792d2f26-2722-4ab5-a54e-ab2f5580ade6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e86f0d34-e891-44fe-5d7b-f0982c609c38" executionId="caac2010-d023-48a2-9160-8f7f52ab4325" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ebcb3a08-dcb5-439c-8e8f-2d8964a69807" testId="000f95bb-1270-c5be-f922-0f8715e66a41" testName="BitStringConstructorTest2" computerName="ELLRIN" duration="00:00:00.0276434" startTime="2010-12-18T00:37:29.0769555-08:00" endTime="2010-12-18T00:37:29.2839674-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ebcb3a08-dcb5-439c-8e8f-2d8964a69807">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method BACnet.Tests.BitStringTest.BitStringConstructorTest2 threw exception: 
+System.TypeInitializationException: The type initializer for 'BACnet.ProtocolTypes.BitString`1' threw an exception. ---&gt; System.InvalidCastException: Specified cast is not valid.</Message>
+          <StackTrace>    at BACnet.ProtocolTypes.BitString`1..cctor() in D:\Code\csharp-bacnet\BACnet\ProtocolTypes\BitString.cs:line 136
+ --- End of inner exception stack trace ---
+    at BACnet.ProtocolTypes.BitString`1..ctor(UInt64 flags)
+   at BACnet.Tests.BitStringTest.BitStringConstructorTest2() in D:\Code\csharp-bacnet\BACnet.Tests\ProtocolTypes\BitStringTest.cs:line 84
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8c7ead7f-e234-4a0c-bc71-b9c51d82ae2d" testId="1db3f146-6d37-ab11-90b1-d417783ab30f" testName="maskTest" computerName="ELLRIN" duration="00:00:00.0045833" startTime="2010-12-18T00:37:29.2849674-08:00" endTime="2010-12-18T00:37:29.2919678-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c7ead7f-e234-4a0c-bc71-b9c51d82ae2d">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;64 (System.UInt64)&gt;. Actual:&lt;64 (System.Int32)&gt;. </Message>
+          <StackTrace>   at BACnet.Tests.BitStringTest.maskTest() in D:\Code\csharp-bacnet\BACnet.Tests\ProtocolTypes\BitStringTest.cs:line 167
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ab180c99-2f03-4611-8d47-4f537bdee3a0" testId="25fd975d-1b6f-2ba5-0b71-17fac58fcd2d" testName="LengthTest1" computerName="ELLRIN" duration="00:00:00.0011498" startTime="2010-12-18T00:37:29.2929679-08:00" endTime="2010-12-18T00:37:29.2979682-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab180c99-2f03-4611-8d47-4f537bdee3a0">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method BACnet.Tests.BitStringTest.LengthTest1 threw exception: 
+System.TypeInitializationException: The type initializer for 'BACnet.ProtocolTypes.BitString`1' threw an exception. ---&gt; System.InvalidCastException: Specified cast is not valid.</Message>
+          <StackTrace>    at BACnet.ProtocolTypes.BitString`1..cctor() in D:\Code\csharp-bacnet\BACnet\ProtocolTypes\BitString.cs:line 136
+ --- End of inner exception stack trace ---
+    at BACnet.ProtocolTypes.BitString`1.get_Length()
+   at BACnet.Tests.BitStringTest.LengthTest1() in D:\Code\csharp-bacnet\BACnet.Tests\ProtocolTypes\BitStringTest.cs:line 145
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="40065040-bc02-4d6d-bb39-333ecc7cce8b" testId="3ee8baaa-1cf0-da39-cb30-a6c7e6327dd5" testName="LengthTest" computerName="ELLRIN" duration="00:00:00.0009350" startTime="2010-12-18T00:37:29.2989682-08:00" endTime="2010-12-18T00:37:29.3029685-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40065040-bc02-4d6d-bb39-333ecc7cce8b">
+    </UnitTestResult>
+    <UnitTestResult executionId="dc8bbce8-90d0-4e9c-b849-ea4bdb748f16" testId="4d7b5f58-1541-b38a-a31c-fd12884037ea" testName="FlagsTest" computerName="ELLRIN" duration="00:00:00.0013843" startTime="2010-12-18T00:37:29.3039685-08:00" endTime="2010-12-18T00:37:29.3079688-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc8bbce8-90d0-4e9c-b849-ea4bdb748f16">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;160 (System.UInt64)&gt;. Actual:&lt;160 (System.Int32)&gt;. </Message>
+          <StackTrace>   at BACnet.Tests.BitStringTest.FlagsTest() in D:\Code\csharp-bacnet\BACnet.Tests\ProtocolTypes\BitStringTest.cs:line 180
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2956ca55-c241-4bf6-b0cb-87706b0346a9" testId="51402006-0952-5313-947e-332d1720b63c" testName="ItemTest2" computerName="ELLRIN" duration="00:00:00.0011899" startTime="2010-12-18T00:37:29.3089688-08:00" endTime="2010-12-18T00:37:29.3129690-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2956ca55-c241-4bf6-b0cb-87706b0346a9">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method BACnet.Tests.BitStringTest.ItemTest2 threw exception: 
+System.TypeInitializationException: The type initializer for 'BACnet.ProtocolTypes.BitString`1' threw an exception. ---&gt; System.InvalidCastException: Specified cast is not valid.</Message>
+          <StackTrace>    at BACnet.ProtocolTypes.BitString`1..cctor() in D:\Code\csharp-bacnet\BACnet\ProtocolTypes\BitString.cs:line 136
+ --- End of inner exception stack trace ---
+    at BACnet.ProtocolTypes.BitString`1.set_Item(TFlags index, Boolean value)
+   at BACnet.Tests.BitStringTest.ItemTest2() in D:\Code\csharp-bacnet\BACnet.Tests\ProtocolTypes\BitStringTest.cs:line 136
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="932fa25d-3d31-4ab9-8e7c-4729f07c3437" testId="800c139e-b476-1d29-81a2-74fdbdeaac2d" testName="BitStringConstructorTest1" computerName="ELLRIN" duration="00:00:00.0014813" startTime="2010-12-18T00:37:29.3129690-08:00" endTime="2010-12-18T00:37:29.3189694-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="932fa25d-3d31-4ab9-8e7c-4729f07c3437">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method BACnet.Tests.BitStringTest.BitStringConstructorTest1 threw exception: 
+System.TypeInitializationException: The type initializer for 'BACnet.ProtocolTypes.BitString`1' threw an exception. ---&gt; System.InvalidCastException: Specified cast is not valid.</Message>
+          <StackTrace>    at BACnet.ProtocolTypes.BitString`1..cctor() in D:\Code\csharp-bacnet\BACnet\ProtocolTypes\BitString.cs:line 136
+ --- End of inner exception stack trace ---
+    at BACnet.ProtocolTypes.BitString`1..ctor(TFlags[] flags)
+   at BACnet.Tests.BitStringTest.BitStringConstructorTest1() in D:\Code\csharp-bacnet\BACnet.Tests\ProtocolTypes\BitStringTest.cs:line 73
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3b6560f0-5154-4087-badf-1d7ff2524e34" testId="abdd70d3-24a6-312c-8b19-00474a4fc338" testName="op_ImplicitTest" computerName="ELLRIN" duration="00:00:00.0013292" startTime="2010-12-18T00:37:29.3199694-08:00" endTime="2010-12-18T00:37:29.3249697-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b6560f0-5154-4087-badf-1d7ff2524e34">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method BACnet.Tests.BitStringTest.op_ImplicitTest threw exception: 
+System.TypeInitializationException: The type initializer for 'BACnet.ProtocolTypes.BitString`1' threw an exception. ---&gt; System.InvalidCastException: Specified cast is not valid.</Message>
+          <StackTrace>    at BACnet.ProtocolTypes.BitString`1..cctor() in D:\Code\csharp-bacnet\BACnet\ProtocolTypes\BitString.cs:line 136
+ --- End of inner exception stack trace ---
+    at BACnet.ProtocolTypes.BitString`1..ctor(UInt64 flags)
+   at BACnet.Tests.BitStringTest.op_ImplicitTest() in D:\Code\csharp-bacnet\BACnet.Tests\ProtocolTypes\BitStringTest.cs:line 105
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a11c7e96-e509-4d7e-a973-bb3c937c2d21" testId="baf21fea-20f4-65b5-b74e-3da5aab70eb7" testName="ItemTest" computerName="ELLRIN" duration="00:00:00.0009774" startTime="2010-12-18T00:37:29.3249697-08:00" endTime="2010-12-18T00:37:29.3289700-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a11c7e96-e509-4d7e-a973-bb3c937c2d21">
+    </UnitTestResult>
+    <UnitTestResult executionId="4984d936-ede9-49cb-90c1-2aa05ec1e6b4" testId="c7a48a19-d730-8400-6b82-3a4d2b7946e4" testName="maskTest1" computerName="ELLRIN" duration="00:00:00.0056692" startTime="2010-12-18T00:37:29.3299700-08:00" endTime="2010-12-18T00:37:29.3389705-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4984d936-ede9-49cb-90c1-2aa05ec1e6b4">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method BACnet.Tests.BitStringTest.maskTest1 threw exception: 
+System.TypeInitializationException: The type initializer for 'BACnet.ProtocolTypes.BitString`1' threw an exception. ---&gt; System.InvalidCastException: Specified cast is not valid.</Message>
+          <StackTrace>    at BACnet.ProtocolTypes.BitString`1..cctor() in D:\Code\csharp-bacnet\BACnet\ProtocolTypes\BitString.cs:line 136
+ --- End of inner exception stack trace ---
+   at BACnet.ProtocolTypes.BitString_Accessor`1.mask(Int32 index)
+   at BACnet.Tests.BitStringTest.maskTest1() in D:\Code\csharp-bacnet\BACnet.Tests\ProtocolTypes\BitStringTest.cs:line 96
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="dbf68f0a-d398-4c34-8917-9920a52c80bf" testId="dd3e264b-8f45-7612-406f-b3b996d681d6" testName="FlagsTest1" computerName="ELLRIN" duration="00:00:00.0012230" startTime="2010-12-18T00:37:29.3399706-08:00" endTime="2010-12-18T00:37:29.3449709-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dbf68f0a-d398-4c34-8917-9920a52c80bf">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method BACnet.Tests.BitStringTest.FlagsTest1 threw exception: 
+System.TypeInitializationException: The type initializer for 'BACnet.ProtocolTypes.BitString`1' threw an exception. ---&gt; System.InvalidCastException: Specified cast is not valid.</Message>
+          <StackTrace>    at BACnet.ProtocolTypes.BitString`1..cctor() in D:\Code\csharp-bacnet\BACnet\ProtocolTypes\BitString.cs:line 136
+ --- End of inner exception stack trace ---
+    at BACnet.ProtocolTypes.BitString`1..ctor(TFlags[] flags)
+   at BACnet.Tests.BitStringTest.FlagsTest1() in D:\Code\csharp-bacnet\BACnet.Tests\ProtocolTypes\BitStringTest.cs:line 117
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="792d2f26-2722-4ab5-a54e-ab2f5580ade6" testId="dd74277e-90a2-c41d-ba3b-e1a4a0511757" testName="BitStringConstructorTest" computerName="ELLRIN" duration="00:00:00.0002071" startTime="2010-12-18T00:37:29.3449709-08:00" endTime="2010-12-18T00:37:29.3479710-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="792d2f26-2722-4ab5-a54e-ab2f5580ade6">
+    </UnitTestResult>
+    <UnitTestResult executionId="caac2010-d023-48a2-9160-8f7f52ab4325" testId="e86f0d34-e891-44fe-5d7b-f0982c609c38" testName="ItemTest1" computerName="ELLRIN" duration="00:00:00.0012272" startTime="2010-12-18T00:37:29.3499712-08:00" endTime="2010-12-18T00:37:29.3539714-08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="caac2010-d023-48a2-9160-8f7f52ab4325">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method BACnet.Tests.BitStringTest.ItemTest1 threw exception: 
+System.TypeInitializationException: The type initializer for 'BACnet.ProtocolTypes.BitString`1' threw an exception. ---&gt; System.InvalidCastException: Specified cast is not valid.</Message>
+          <StackTrace>    at BACnet.ProtocolTypes.BitString`1..cctor() in D:\Code\csharp-bacnet\BACnet\ProtocolTypes\BitString.cs:line 136
+ --- End of inner exception stack trace ---
+    at BACnet.ProtocolTypes.BitString`1..ctor(UInt64 flags)
+   at BACnet.Tests.BitStringTest.ItemTest1() in D:\Code\csharp-bacnet\BACnet.Tests\ProtocolTypes\BitStringTest.cs:line 125
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
