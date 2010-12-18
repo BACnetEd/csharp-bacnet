@@ -20,7 +20,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace BACnet
+namespace BACnet.ProtocolTypes
 {
     /// <summary>
     /// Represents an untyped enumerated value
